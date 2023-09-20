@@ -4,7 +4,7 @@ import numpy as np
 from scipy.integrate import odeint
 import pylab as pl
 
-mu=26
+mu=26 #chnage mu to observe difference in Phase Portraits
 # 2D system
 def dx_dt(x,t):
   return [x[1], -mu*x[1]-25*x[1]]
